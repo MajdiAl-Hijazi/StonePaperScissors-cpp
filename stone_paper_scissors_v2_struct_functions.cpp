@@ -1,5 +1,6 @@
 #include<iostream>
 #include<ctime>
+#include<string>
 
 using namespace std;
 
@@ -137,7 +138,7 @@ string Tabs(short NumberofTabs) {
 void ShowGameOverScreen() {
 
 	cout << Tabs(2) << "________________________________________________________\n\n";
-	cout << Tabs(2) << "                  +++G a m e O v e r +++                \n\n";
+	cout << Tabs(2) << "                 +++ G a m e O v e r +++                \n\n";
 	cout << Tabs(2) << "________________________________________________________\n\n";
 }
 
@@ -243,3 +244,4 @@ int main() {
 
 	return 0;
 }
+
